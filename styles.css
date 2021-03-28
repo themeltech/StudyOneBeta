@@ -6,8 +6,9 @@
     margin: 0;
 }
 body {
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
+	
 }
 nav {
     background: #6c1ef4;
@@ -94,3 +95,20 @@ a {
     background-color: #111;
     border-radius: 3px;
 }
+
+  .aboutheader {
+            padding-top: 50px;
+        padding-bottom: 55px;
+            background: #6c1ef4;
+            text-align: center;
+            color: white;
+            border-radius: 16px;
+            box-shadow: 3px 5px 10px #e6e6e6;
+        border: 2px #F5F5F5;
+        border-style: solid;
+	  font-size: 50px;
+	  font-weight: bold;
+	  margin-left: 20px;
+	  margin-right: 20px
+	  
+        }

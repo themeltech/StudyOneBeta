@@ -5,6 +5,10 @@
     padding: 0;
     margin: 0;
 }
+
+h1{
+	font-size:50px;
+}
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -12,7 +16,7 @@ body {
 }
 nav {
     background: #6c1ef4;
-    padding: 0 15px;
+    padding: 0 25px;
 }
 a {
     color: white;
@@ -23,8 +27,9 @@ a {
     list-style-type: none;
 }
 .logo {
-    font-size: 20px;
+    font-size: 30px;
     padding: 7.5px 10px 7.5px 0;
+	font-weight: bolder;
 }
 .item {
     padding: 10px;
@@ -112,3 +117,86 @@ a {
 	  margin-right: 20px
 	  
         }
+
+.infosection {
+            padding-top: 50px;
+        padding-bottom: 55px;
+	padding-left:20px;
+	padding-right:20px;
+            background: #ffffff;
+            text-align: center;
+            color: black;
+            border-radius: 16px;
+            box-shadow: 3px 5px 10px #e6e6e6;
+        border: 2px #F5F5F5;
+        border-style: solid;
+	  font-size: 20px;
+	  font-weight: bold;
+	 margin-left: 20px;
+	  margin-right: 20px
+}
+
+.storysection {
+            padding-top: 50px;
+        padding-bottom: 55px;
+	padding-left:20px;
+	padding-right:20px;
+            background: #6c1ef4;
+            text-align: center;
+            color: white;
+            border-radius: 16px;
+            box-shadow: 3px 5px 10px #e6e6e6;
+        border: 2px #F5F5F5;
+        border-style: solid;
+	  font-size: 20px;
+	  font-weight: bold;
+	 margin-left: 20px;
+	  margin-right: 20px
+}
+.reviewssection {
+            padding-top: 50px;
+        padding-bottom: 55px;
+	padding-left:20px;
+	padding-right:20px;
+            background: #ffffff;
+            text-align: center;
+            color: #6c1ef4;
+            border-radius: 16px;
+            box-shadow: 3px 5px 10px #e6e6e6;
+        border: 2px #F5F5F5;
+        border-style: solid;
+	  /*font-size: 20px;*/
+	  font-weight: bold;
+	 margin-left: 20px;
+	  margin-right: 20px
+}
+.teamsection {
+            padding-top: 50px;
+        padding-bottom: 55px;
+	padding-left:20px;
+	padding-right:20px;
+            background: #00305b;
+            text-align: center;
+            color: #white;
+            border-radius: 16px;
+            box-shadow: 3px 5px 10px #e6e6e6;
+        border: 2px #F5F5F5;
+        border-style: solid;
+	  font-size: 50px;
+	  font-weight: bold;
+	 margin-left: 20px;
+	  margin-right: 20px
+}
+.footer {
+   /*position: fixed;*/
+   left: 0;
+	bottom: 0;
+	padding-top: 15px;
+	padding-bottem: 20px;
+   width: 100%;
+   background-color: #6c1ef4;
+   color: white;
+   text-align: center;
+}
+@media {
+}
